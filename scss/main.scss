@@ -22,12 +22,14 @@ h1, h2, h3 {
 
     &.lg-heading {
         font-size: 4rem;
+        text-align: right;
     }
 
     &.sm-heading{
         margin-bottom: 2rem;
         padding: 1rem 1rem;
         background: rgba(lighten($primary-color, 2), 0.5);
+        text-align: right;
     }
 }
 
@@ -52,6 +54,7 @@ main{
 
     .icons{
         margin-top: 1.5rem;
+        text-align: right;
 
         a{
             padding: 0.4rem;
