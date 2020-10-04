@@ -29,7 +29,7 @@ h1, h2, h3 {
     &.sm-heading{
         margin-bottom: 2rem;
         padding: 1rem 1rem;
-        background: rgba(lighten($primary-color, 2), 0.5);
+        background: rgba(lighten($primary-color, 25), 0.5);
         /*text-align: right;*/
     }
 }
@@ -74,7 +74,7 @@ main{
             margin-top: 20vh;
         }
     }
-    .button {
+    .btn-know {
         background-color: #ffffff;
         color: ($primary-color);
         border: none;
@@ -152,19 +152,21 @@ main{
 //Work/Projects
 .projects{
     display: grid;
-    grid-gap: 0.7rem;
+    grid-gap: 1rem;
     grid-template-columns: repeat(3, 1fr);
     img{
         width: 100%;
-        border: 3px #ffffff solid;
-
+        border: 1.5px #ffffff solid;
+    
         &:hover{
-            opacity: 0.5;
-            border-color: $secondary-color;
-            @include easeOut;
+            transform: scale(1.1);
+            box-shadow: 0 0 9px $secondary-color;
         }
     }
+
+    
 }
+    
 
 //Contact Page
 .boxes{
@@ -192,6 +194,8 @@ main{
     }
 }
 
+
+
 //Button Styles
 .btn{
     display: block;
@@ -211,8 +215,8 @@ main{
 }
 .btn-light{
     @extend .btn;
-    background: lighten($primary-color, 50);
-    color: #333333;
+    background: lighten($primary-color, 30);
+    color: #ffffff;
 }
 
 

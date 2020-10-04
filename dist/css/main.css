@@ -40,14 +40,14 @@
   .menu-nav {
     margin: 0;
     padding: 0;
-    background: #373737;
+    background: black;
     list-style: none;
     transform: translate3d(0, 100%, 0);
     transition: all 0.5s ease-out; }
     .menu-nav.show {
       transform: translate3d(0, 0, 0); }
   .menu-branding {
-    background: #444;
+    background: black;
     transform: translate3d(0, -100%, 0);
     transition: all 0.5s ease-out; }
     .menu-branding.show {
@@ -94,7 +94,7 @@
   box-sizing: border-box; }
 
 body {
-  background: #444;
+  background: black;
   color: #fff;
   height: 100%;
   margin: 0;
@@ -112,7 +112,7 @@ body {
       width: 100%;
       height: 100%;
       z-index: -1;
-      background: rgba(68, 68, 68, 0.9); }
+      background: rgba(0, 0, 0, 0.9); }
 
 h1, h2, h3 {
   margin: 0;
@@ -123,7 +123,7 @@ h1, h2, h3 {
   h1.sm-heading, h2.sm-heading, h3.sm-heading {
     margin-bottom: 2rem;
     padding: 1rem 1rem;
-    background: rgba(73, 73, 73, 0.5);
+    background: rgba(64, 64, 64, 0.5);
     /*text-align: right;*/ }
 
 a {
@@ -153,9 +153,9 @@ main {
     overflow: hidden; }
     main#home h1 {
       margin-top: 20vh; }
-  main .button {
+  main .btn-know {
     background-color: #ffffff;
-    color: #444;
+    color: black;
     border: none;
     padding: 10px 29px;
     text-align: center;
@@ -166,7 +166,7 @@ main {
     margin: 19px 2px;
     border-radius: 40px 40px;
     cursor: pointer; }
-    main .button:hover {
+    main .btn-know:hover {
       background: #0ef5f5;
       transition: all 0.5s ease-out; }
 
@@ -196,7 +196,7 @@ main {
   .about-info .job-3 {
     grid-area: job1; }
   .about-info .job {
-    background: #515151;
+    background: #0d0d0d;
     padding: 0.5rem;
     border-bottom: #0ef5f5 5px solid; }
   .about-info .aboutH2 {
@@ -207,15 +207,14 @@ main {
 
 .projects {
   display: grid;
-  grid-gap: 0.7rem;
+  grid-gap: 1rem;
   grid-template-columns: repeat(3, 1fr); }
   .projects img {
     width: 100%;
-    border: 3px #ffffff solid; }
+    border: 1.5px #ffffff solid; }
     .projects img:hover {
-      opacity: 0.5;
-      border-color: #0ef5f5;
-      transition: all 0.5s ease-out; }
+      transform: scale(1.1);
+      box-shadow: 0 0 9px #0ef5f5; }
 
 .boxes {
   display: flex;
@@ -250,13 +249,13 @@ main {
   color: #ffffff; }
 
 .btn-light {
-  background: #c4c4c4;
-  color: #333333; }
+  background: #4d4d4d;
+  color: #ffffff; }
 
 #main-footer {
   text-align: center;
   padding: 1rem;
-  background: #2b2b2b;
+  background: black;
   color: #fff;
   height: 60px; }
 
@@ -264,7 +263,7 @@ main {
   main {
     text-align: center; }
   .projects {
-    grid-template-columns: repeat(4, 1fr); } }
+    grid-template-columns: repeat(3, 1fr); } }
 
 @media screen and (min-width: 769px) and (max-width: 1170px) {
   main {
