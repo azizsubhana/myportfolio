@@ -5,7 +5,7 @@
   "main": "index.js",
   "homepage": "https://azizsubhana.github.io/myportfolio",
   "scripts": {
-    "sass": "node-sass -w scss/ -o css/ --recursive",
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive",
     "deploy": "gh-pages -d dist"
   },
   "author": "Subhana Aziz",
