@@ -69,7 +69,7 @@
   width: 250px;
   height: 250px;
   border-radius: 50%;
-  border: solid 3px #ff288c;
+  border: solid 3px #ff5a28;
 }
 .menu .nav-item {
   transform: translate3d(-600px, 0, 0);
@@ -79,7 +79,7 @@
   transform: translate3d(0, 0, 0);
 }
 .menu .nav-item.current > a {
-  color: #ff288c;
+  color: #ff5a28;
 }
 .menu .nav-link {
   display: inline-block;
@@ -93,7 +93,7 @@
   transition: all 0.5s ease-out;
 }
 .menu .nav-link:hover {
-  color: #ff288c;
+  color: #ff5a28;
 }
 
 .nav-item:nth-child(1) {
@@ -167,7 +167,7 @@ header {
 }
 
 .text-secondary {
-  color: #ff288c;
+  color: #ff5a28;
 }
 
 main {
@@ -182,7 +182,7 @@ main .icons a {
   padding: 0.4rem;
 }
 main .icons a:hover {
-  color: #ff288c;
+  color: #ff5a28;
   transition: all 0.5s ease-out;
 }
 main#home {
@@ -206,7 +206,7 @@ main .btn-know {
   cursor: pointer;
 }
 main .btn-know:hover {
-  background: #ff288c;
+  background: #ff5a28;
   transition: all 0.5s ease-out;
 }
 
@@ -227,7 +227,7 @@ main .btn-know:hover {
   grid-area: bioimage;
   margin: auto;
   border-radius: 50%;
-  border: #ff288c 3px solid;
+  border: #ff5a28 3px solid;
 }
 .about-info .bio {
   grid-area: bio;
@@ -245,10 +245,10 @@ main .btn-know:hover {
 .about-info .job {
   background: #282828;
   padding: 0.5rem;
-  border-bottom: #ff288c 5px solid;
+  border-bottom: #ff5a28 5px solid;
 }
 .about-info .aboutH2 {
-  color: #ff288c;
+  color: #ff5a28;
   font-size: 27px;
 }
 .about-info .aboutP {
@@ -266,7 +266,7 @@ main .btn-know:hover {
 }
 .projects img:hover {
   transform: scale(1.1);
-  box-shadow: 0 0 9px #ff288c;
+  box-shadow: 0 0 9px #ff5a28;
 }
 
 .boxes {
@@ -285,7 +285,7 @@ main .btn-know:hover {
 }
 .boxes div:hover {
   padding: 0.8rem 1.5rem;
-  background: #ff288c;
+  background: #ff5a28;
   color: #000;
 }
 .boxes div:hover span {
@@ -299,7 +299,7 @@ main .btn-know:hover {
   margin-bottom: 0.3rem;
 }
 .btn:hover, .btn-light:hover, .btn-dark:hover {
-  background: #ff288c;
+  background: #ff5a28;
   color: #000;
 }
 
